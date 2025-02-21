@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="550dp"
+        android:layout_height="570dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="-212dp"
+        android:paddingTop="24dp"
+        android:text="EASY CALCULATOR"
+        android:textColor="#FF9800"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="-98dp"
+        android:layout_marginBottom="75dp"
+        android:paddingTop="20dp"
+        android:text="@SriHarsha and TEAM"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+</RelativeLayout>
